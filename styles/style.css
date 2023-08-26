@@ -98,10 +98,10 @@ ol {
   cursor: pointer;
   inline-size: fit-content;
 }
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
-.search-form__label-text:has(:focus-visible) {
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
