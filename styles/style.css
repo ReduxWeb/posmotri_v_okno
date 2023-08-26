@@ -55,7 +55,7 @@ ol {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  max-inline-size: 1140px;
+  inline-size: 1140px;
 }
 .result {
   display: flex;
@@ -64,7 +64,7 @@ ol {
 }
 .result__video-container {
   position: relative;
-  min-inline-size: 711px;
+  inline-size: 711px;
   block-size: 386px;
 }
 .result__video {
@@ -202,7 +202,7 @@ ol {
 .content__list {
   position: relative;
   overflow: auto;
-  max-inline-size: 398px;
+  inline-size: 398px;
   block-size: 298px;
 }
 /* скроем скроллбар */
